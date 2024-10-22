@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="355dp"
+        android:layout_height="52dp"
+        android:text="CLIENT LOCATION TRACKER"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/Theme.Black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/startUpdateLocationButton"
+        android:layout_width="173dp"
+        android:layout_height="96dp"
+        android:text="start Update Location Button" />
+    <Button
+        android:id="@+id/stopUpdateLocationButton"
+        android:layout_width="173dp"
+        android:layout_height="96dp"
+        android:text="stop Update Location" />
+
+    <TextView
+        android:id="@+id/coordinateText"
+        android:layout_width="355dp"
+        android:layout_height="74dp"
+        android:text="---"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/Theme.Black"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
